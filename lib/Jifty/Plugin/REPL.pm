@@ -4,6 +4,8 @@ use warnings;
 package Jifty::Plugin::REPL;
 use base qw/Jifty::Plugin/;
 
+our $VERSION = '0.01';
+
 =head1 NAME
 
 Jifty::Plugin::REPL - Provide a read-eval-print loop for Jifty
